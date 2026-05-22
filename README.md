@@ -15,12 +15,63 @@ Kantin merupakan salah satu fasilitas penting di lingkungan kampus yang berfungs
 Penelitian ini menggunakan metode kuantitatif dengan pendekatan survei. Pengumpulan data dilakukan dengan menyebarkan kuesioner kepada mahasiswa FMIPA Universitas Mataram. Populasi penelitian terdiri dari mahasiswa Program Studi Matematika, Statistika, Biologi, Kimia, dan Fisika.
 Penentuan jumlah sampel dilakukan menggunakan rumus Slovin dengan tingkat kesalahan sebesar 10%.
 n=N/(1+N(e^2)).
-
 Keterangan:
 n= jumlah sampel 
 N= jumlah populasi 
 e= tingkat kesalahan 
-Instrumen penelitian menggunakan kuesioner dengan skala Likert yang terdiri dari lima pilihan jawaban, yaitu Sangat Tidak Setuju, Tidak Setuju, Netral, Setuju, dan Sangat Setuju. Pengolahan data dilakukan menggunakan aplikasi R Studio.
+Instrumen penelitian menggunakan kuesioner dengan skala Likert yang terdiri dari lima pilihan jawaban, yaitu:
+1. Sangat Tidak Setuju,
+2. Tidak Setuju,
+3. Netral,
+4. Setuju, dan
+5. Sangat Setuju.
+Pengolahan data dilakukan menggunakan aplikasi R Studio.
+Pengambilan Sampel
+## PROSES ANALISIS DATA
+1. Menentukan Jumlah Sampel Menggunakan Rumus Slovin
 
+Pengambilan sampel dilakukan menggunakan rumus Slovin. Populasi penelitian merupakan mahasiswa dari lima program studi di FMIPA Universitas Mataram, yaitu Matematika, Statistika, Biologi, Kimia, dan Fisika dengan jumlah populasi sebanyak 897 mahasiswa.
+Rumus Slovin yang digunakan yaitu:
+n=1+N(e2)N
+Keterangan:
+n = jumlah sampel
+N = jumlah populasi
+e = tingkat kesalahan
+Dengan jumlah populasi sebanyak 897 mahasiswa dan tingkat kesalahan tertentu, diperoleh jumlah sampel penelitian sebanyak 30 responden. Sampel dipilih dari lima program studi di FMIPA Universitas Mataram.
 
+2. Menginfor Data
+Data penelitian diperoleh melalui penyebaran kuesioner kepada mahasiswa. Data hasil kuesioner kemudian disimpan dalam file Excel dan diimpor ke dalam R Studio menggunakan package readxl.
+library(readxl)
+data_kuesioner_teksam <- read_excel("D:/data kuesioner teksam.xlsx")
 
+3. Uji Data
+   Uji Validitas
+
+Uji validitas digunakan untuk mengetahui apakah item pertanyaan pada kuesioner valid atau mampu mengukur variabel penelitian. Pengujian dilakukan menggunakan korelasi Pearson antara skor item dan skor total.
+#uji validitas
+item <- data_kuesioner_teksam[, c("P1","P2","P3","P4","P5","P6","P7","P8","P9","P10")]
+#menghitung skor total responden
+total <- rowSums(item)
+#korelasi item dengan skor total (validitas item)
+cor_validitas <- cor(item, total)
+cor_validitas
+#korelasi item-total lengkap (opsional)
+corr.test(item)
+Kriteria pengujian:
+
+p-value < 0,05 → valid
+p-value > 0,05 → tidak valid
+
+4. Uji Rehabilitas
+Uji reliabilitas digunakan untuk mengetahui konsistensi instrumen penelitian menggunakan metode Cronbach Alpha.
+#UJI RELIABILITAS
+#menghitung Cronbach Alpha (uji reliabilitas instrumen)
+reliabilitas <- alpha(item)
+#nilai Cronbach Alpha saja
+reliabilitas$total$raw_alpha
+#seluruh output reliabilitas
+reliabilitas$total
+Kriteria pengujian:
+
+Cronbach Alpha > 0,60 → reliabel
+Cronbach Alpha < 0,60 → tidak reliabel
