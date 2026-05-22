@@ -55,6 +55,7 @@ corr.test(item)
 Kriteria pengujian:
 
 p-value < 0,05 → valid
+
 p-value > 0,05 → tidak valid
 
 4. Uji Rehabilitas
@@ -69,6 +70,7 @@ reliabilitas$total
 Kriteria pengujian:
 
 Cronbach Alpha > 0,60 → reliabel
+
 Cronbach Alpha < 0,60 → tidak reliabel
 ## HASIL DAN PEMBAHASAN
 1. Uji validitas
@@ -88,8 +90,10 @@ Berdasarkan output corr.test(item), diperoleh matriks korelasi antar item pertan
 Selain itu, output menunjukkan jumlah responden (sample size) sebanyak 30 responden yang digunakan dalam penelitian. Pada bagian probability values (p-value), terdapat beberapa pasangan item yang memiliki nilai signifikansi kurang dari 0,05, sehingga menunjukkan adanya hubungan yang signifikan antar pertanyaan dalam kuesioner. Hal ini menandakan bahwa item-item pertanyaan saling mendukung dalam mengukur variabel kepuasan mahasiswa terhadap kantin kampus.
 2. Uji rehabilitas
 Berdasarkan hasil uji reliabilitas menggunakan metode Cronbach Alpha
-Indikator                     Nilai            Keterangan
-Cronbach Alpha (raw_alpha)   0,8396361          Reliabel
+Indikator                         Nilai               Keterangan
+Cronbach Alpha (raw_alpha)       0,8396361             Reliabel
 
 Nilai tersebut menunjukkan bahwa instrumen kuesioner memiliki tingkat reliabilitas yang tinggi karena nilai Cronbach Alpha lebih besar dari 0,70. Uji reliabilitas dilakukan untuk mengetahui tingkat konsistensi jawaban responden terhadap seluruh item pertanyaan dalam kuesioner.
 Hasil ini menunjukkan bahwa seluruh item pertanyaan mengenai variasi menu makanan, kebersihan makanan, kebersihan tempat makan, harga makanan, porsi makanan, keramahan penjual, kecepatan pelayanan, kenyamanan tempat duduk, kebersihan peralatan makan, serta kualitas makanan secara keseluruhan memiliki konsistensi yang baik dalam mengukur kepuasan mahasiswa terhadap kantin kampus. Dengan demikian, instrumen penelitian dapat dipercaya dan layak digunakan untuk pengumpulan data penelitian karena memberikan hasil yang stabil dan konsisten.
+## KESIMPULAN
+Dsimpulkan bahwa kantin FMIPA Universitas Mataram telah memberikan pelayanan yang cukup baik kepada mahasiswa dan mampu memenuhi kebutuhan mahasiswa dari segi makanan, kenyamanan, serta pelayanan. Selain itu, instrumen penelitian yang digunakan telah terbukti valid dan reliabel sehingga layak digunakan dalam penelitian survei kepuasan mahasiswa. Hasil penelitian ini diharapkan dapat menjadi bahan evaluasi bagi pengelola kantin untuk terus meningkatkan kualitas pelayanan dan fasilitas kantin agar kepuasan mahasiswa dapat semakin meningkat di masa mendatang.
