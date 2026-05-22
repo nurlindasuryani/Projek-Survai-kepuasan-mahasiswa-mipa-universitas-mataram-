@@ -76,21 +76,33 @@ Cronbach Alpha < 0,60 → tidak reliabel
 1. Uji validitas
 Berdasarkan output uji validitas menggunakan korelasi item-total (cor(item, total)), diperoleh nilai korelasi untuk setiap butir pertanyaan (P1 sampai P10). Uji validitas dilakukan untuk mengetahui apakah setiap item pertanyaan pada kuesioner mampu mengukur variabel yang diteliti dengan baik. Suatu item dinyatakan valid apabila nilai korelasinya lebih besar dari nilai r tabel atau lebih dari 0,30.
 Item	Nilai Korelasi	Keterangan
+
 P1	   0,7220794	   Valid
+
 P2	   0,6194761	   Valid
+
 P3   	0,5387274	   Valid
+
 P4   	0,7404550	   Valid
+
 P5	   0,5252324	   Valid
+
 P6	   0,6645790	   Valid
+
 P7   	0,7993691	   Valid
+
 P8   	0,5214876	   Valid
+
 P9   	0,7291700	   Valid
-P10	0,6469825	   Valid
+
+P10  	0,6469825	   Valid
 Berdasarkan output corr.test(item), diperoleh matriks korelasi antar item pertanyaan pada kuesioner kepuasan mahasiswa terhadap kantin kampus. Hasil ini menunjukkan hubungan antara setiap pertanyaan dalam kuesioner, seperti variasi menu makanan, kebersihan makanan, kebersihan tempat makan, harga makanan, porsi makanan, keramahan penjual, kecepatan pelayanan, kenyamanan tempat duduk, kebersihan peralatan makan, dan kualitas makanan secara keseluruhan. Nilai korelasi yang sebagian besar bernilai positif menunjukkan bahwa antar item memiliki hubungan yang searah, artinya apabila tingkat kepuasan mahasiswa pada satu aspek meningkat maka aspek lainnya juga cenderung meningkat.
 Selain itu, output menunjukkan jumlah responden (sample size) sebanyak 30 responden yang digunakan dalam penelitian. Pada bagian probability values (p-value), terdapat beberapa pasangan item yang memiliki nilai signifikansi kurang dari 0,05, sehingga menunjukkan adanya hubungan yang signifikan antar pertanyaan dalam kuesioner. Hal ini menandakan bahwa item-item pertanyaan saling mendukung dalam mengukur variabel kepuasan mahasiswa terhadap kantin kampus.
-2. Uji rehabilitas
+3. Uji rehabilitas
 Berdasarkan hasil uji reliabilitas menggunakan metode Cronbach Alpha
+
 Indikator                         Nilai               Keterangan
+
 Cronbach Alpha (raw_alpha)       0,8396361             Reliabel
 
 Nilai tersebut menunjukkan bahwa instrumen kuesioner memiliki tingkat reliabilitas yang tinggi karena nilai Cronbach Alpha lebih besar dari 0,70. Uji reliabilitas dilakukan untuk mengetahui tingkat konsistensi jawaban responden terhadap seluruh item pertanyaan dalam kuesioner.
