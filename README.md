@@ -53,6 +53,7 @@ cor_validitas
 #korelasi item-total lengkap (opsional)
 corr.test(item)
 Kriteria pengujian:
+
 p-value < 0,05 → valid
 
 p-value > 0,05 → tidak valid
@@ -67,6 +68,7 @@ reliabilitas$total$raw_alpha
 #seluruh output reliabilitas
 reliabilitas$total
 Kriteria pengujian:
+
 Cronbach Alpha > 0,60 → reliabel
 
 Cronbach Alpha < 0,60 → tidak reliabel
