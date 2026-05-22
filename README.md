@@ -10,11 +10,12 @@ Penelitian ini bertujuan untuk mengetahui tingkat kepuasan mahasiswa terhadap pe
 ## Metode Penelitian
 Penelitian ini menggunakan metode kuantitatif dengan pendekatan survei. Pengumpulan data dilakukan dengan menyebarkan kuesioner kepada mahasiswa FMIPA Universitas Mataram. Populasi penelitian terdiri dari mahasiswa Program Studi Matematika, Statistika, Biologi, Kimia, dan Fisika.
 Penentuan jumlah sampel dilakukan menggunakan rumus Slovin dengan tingkat kesalahan sebesar 10%.
-n=N/(1+N(e^2))
+n=N/(1+N(e^2)).
+
 Keterangan:
-	n= jumlah sampel 
-  N= jumlah populasi 
-	e= tingkat kesalahan 
+n= jumlah sampel 
+N= jumlah populasi 
+e= tingkat kesalahan 
 Instrumen penelitian menggunakan kuesioner dengan skala Likert yang terdiri dari lima pilihan jawaban, yaitu Sangat Tidak Setuju, Tidak Setuju, Netral, Setuju, dan Sangat Setuju. Pengolahan data dilakukan menggunakan aplikasi R Studio.
 
 
