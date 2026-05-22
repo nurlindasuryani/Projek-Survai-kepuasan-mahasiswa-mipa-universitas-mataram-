@@ -1,1 +1,1 @@
-# Projek-Survai-kepuasan-mahasiswa-mipa-universitas-mataram
+# PROJEK-SURVEI-kEPUASAN-MAHASISWA-FMIPA-UNIVERSITAS-MATARAM
