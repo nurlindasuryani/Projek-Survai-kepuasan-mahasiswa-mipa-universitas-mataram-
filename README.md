@@ -53,12 +53,11 @@ cor_validitas
 #korelasi item-total lengkap (opsional)
 corr.test(item)
 Kriteria pengujian:
-
 p-value < 0,05 → valid
 
 p-value > 0,05 → tidak valid
 
-4. Uji Rehabilitas
+5. Uji Rehabilitas
 Uji reliabilitas digunakan untuk mengetahui konsistensi instrumen penelitian menggunakan metode Cronbach Alpha.
 #UJI RELIABILITAS
 #menghitung Cronbach Alpha (uji reliabilitas instrumen)
@@ -68,7 +67,6 @@ reliabilitas$total$raw_alpha
 #seluruh output reliabilitas
 reliabilitas$total
 Kriteria pengujian:
-
 Cronbach Alpha > 0,60 → reliabel
 
 Cronbach Alpha < 0,60 → tidak reliabel
